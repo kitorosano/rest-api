@@ -32,5 +32,8 @@ PATCH http://localhost:3000/movies/04986507-b3ed-442c-8ae7-4c5df804f896
 Content-Type: application/json
 
 {
-  "title": 1
+  "title": "Nuevo titulo"
 }
+
+### Borrar una pelicula
+DELETE http://localhost:3000/movies/04986507-b3ed-442c-8ae7-4c5df804f896
